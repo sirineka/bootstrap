@@ -1,0 +1,106 @@
+
+:root{
+    --primary: #05a5aa;
+    --secondary:#0e0af0;
+    --third:#033683;
+    --border-radius: 10%;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar-content{
+    background-image: url('../image/laptop-gbc1a3b813_1920.jpg');
+    background-size: cover;
+    height: calc(100vh - 89.8667px);
+    background-repeat: no-repeat;
+    
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    list-style: none;
+}
+.grandspace{
+    flex: 3;
+}
+.navbar-links li a{
+    color: black;
+}
+.navbar-banner h1{
+    color: var(--primary);
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar-banner{
+   padding: 15em 20em;
+   align-items: center;
+   text-align: center;
+}
+.navbar-banner .separator{
+    border: none;
+    border-top: 3px solid var(--secondary);
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 20%;
+}
+.btn{
+    background-color: var(--primary);
+    color: black;
+    padding: .5em 1em;
+    border-radius: var(--border-radius)
+}
+.navbar-banner p{
+    margin-bottom: 2em;
+}
+.rectangle.navbar-banner{
+   background-color: var(--third);
+   padding-top: 2em;
+   margin-bottom: 3em;
+   padding-bottom: 2em;
+}
+.card-title{
+
+    text-align: center;
+    align-items: center;
+}
+.card-title h2{
+    color: var(--primary);
+    font-weight: bold;
+}
+.card-title .separator{
+    display: inline-block;
+    width: 30%;
+    border: 3px solid var(--third);
+}
+.card-liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em 0
+}
+.card{
+    width: 300px;
+}
+.card-img{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+    
+
+
+
+
+
