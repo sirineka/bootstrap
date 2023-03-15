@@ -79,14 +79,14 @@ a{
 }
 .card-title .separator{
     display: inline-block;
-    width: 30%;
+    width: 20%;
     border: 3px solid var(--third);
 }
 .card-liste{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1em 0
+    justify-content: space-around;
+    padding-top: 2em;
 }
 .card{
     width: 300px;
@@ -94,6 +94,35 @@ a{
 .card-img{
     overflow: hidden;
     width: 100%;
+}
+.card-img img{
+    width: 10%;
+}
+.card-image{
+    padding-top: 2em;
+}
+.card-fluid{
+    display: flex;
+    overflow: hidden;
+   
+}
+.card-fluid img{
+    width: 35%;
+}
+table{
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin: 2em auto;
+    width: 90%;
+    border-collapse: collapse;
+    
+}
+table td{
+    padding: 1em;
+    border:.5px solid;
+    border-color: rgb(185, 176, 176);
+    text-align: center;
+    align-items: center;
 }
 
 
