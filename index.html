@@ -10,30 +10,34 @@
 <body>
     <header>
         <nav class="navbar-content">
-
-         <ul class="navbar-links">   
-            <li class="title"><a href="/">Bootstrap</a></li>   
-            <li class="grandspace"></li>
-             <li><a href="#">Protrfolio</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Contact</a></li>
-         </ul>
-         <div class="navbar-banner">
-            <h1>Portfolio Bootstrap</h1>
-            <hr class="separator"/>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia eaque repellat incidunt quisquam suscipit ex voluptatem labore dolore blanditiis! Minima eveniet itaque ullam id assumenda impedit veniam saepe atque.
-            </p>
-            <a href="#" class="btn">En savoir plus</a>
-        </div>
+            <ul class="navbar-links">   
+                <li class="title"><a href="/">Bootstrap</a></li>   
+                <li class="grandspace"></li>
+                <li><a href="#">Protrfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
+        <div class="navbar-banner">
+            <div class="banner-header">
+                <h1>Portfolio Bootstrap</h1>
+                <hr class="separator"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia eaque repellat incidunt quisquam suscipit ex voluptatem labore dolore blanditiis! Minima eveniet itaque ullam id assumenda impedit veniam saepe atque.
+                </p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+        </div>
     </header>
     <main>
-        <section><div class="rectangle navbar-banner">
-            <h2>Test</h2>
-            <hr class="separator"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eius quibusdam, facere id dolorem exercitationem voluptatibus deleniti rerum odit sapiente maiores atque quae sit odio rem hic ad impedit dolore?</p>
-            <a href="#" class="btn">Plus d'informations </a>
-        </div>
+        <section>
+            <div class="rectangle">
+                <div class="banner-rectangle">
+                    <h2>Test</h2>
+                    <hr class="separator"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eius quibusdam, facere id dolorem exercitationem voluptatibus deleniti rerum odit sapiente maiores atque quae sit odio rem hic ad impedit dolore?</p>
+                    <a href="#" class="btn">Plus d'informations </a>
+            </div>
+                </div>
         </section>
         <div class="card-title">
             <h2>Test</h2>
@@ -97,14 +101,20 @@
                         <td>Pierre</td>
                         <td>25</td>
                         <td>Pierrebertrand@gmail.com</td>
-                        <td><i class="fa-solid fa-toggle-on"></i></td>
+                        <td><div class="toggle-switch">
+                            <input class="toggle-input" id="toggle" type="checkbox">
+                            <label class="toggle-label" for="toggle"></label>
+                        </div></i></td>
                     </tr>
                     <tr>
                         <td>Kerkeni</td>
                         <td>Sirine</td>
                         <td>37</td>
                         <td>karkenisirine@yahoo.fr</td>
-                        <td><i class="fa-solid fa-toggle-on"></i></td>
+                        <td><div class="toggle-switch">
+                            <input class="toggle-input" id="toggle" type="checkbox">
+                            <label class="toggle-label" for="toggle"></label>
+                        </div></i></td>
                     </tr>
                 </tbody>
             </table>
